@@ -1,18 +1,18 @@
-marks = 80;
+marks = int(input("Enter Student marks : "))
 
 
 if(marks >= 90):
-    print("Grade A") 
+    grade = "Grade A"; 
 
 elif(marks >= 80 and marks < 90):
-        print("Grade B")
-elif(marks >= 70):
-        print("Grade C")
+            grade = "Grade b"; 
 
-elif(marks > 70):
-    print("Grade D") 
+elif(marks >= 70):
+            grade = "Grade C"; 
+
 
 else: 
-    print(" ") 
+      grade = "Grade D"; 
 
 
+print("Grade of the student--->>>>", grade);
