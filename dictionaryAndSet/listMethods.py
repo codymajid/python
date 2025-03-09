@@ -21,3 +21,11 @@ p = list[0] = 4
 print("list in p", list)
 
 print("p", p)
+
+
+
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+print("thislist", thislist)
+
